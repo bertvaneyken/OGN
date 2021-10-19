@@ -40,13 +40,12 @@ my $query_create = $connect->prepare("CREATE TABLE IF NOT EXISTS TRACKING_" . $y
 $query_create->execute();
 
 #10km rondom Keiheuvel
-#my $is = new Ham::APRS::IS('aprs.glidernet.org:14580', 'PerlEx', 'appid' => 'Perl Example App', 'filter'=>'r/+51.179/+5.222/10');
+#my $is = new Ham::APRS::IS('aprs.glidernet.org:14580', 'PerlEx', 'appid' => 'your_unique_perl_app_name_here', 'filter'=>'r/+51.179/+5.222/10');
 
 #15km rondom Diest
-my $is = new Ham::APRS::IS('aprs.glidernet.org:14580', 'PerlEx', 'appid' => 'Perl Diest Aero Club App', 'filter'=>'r/+51.004/+5.071/15');
+my $is = new Ham::APRS::IS('aprs.glidernet.org:14580', 'PerlEx', 'appid' => 'your_unique_perl_app_name_here', 'filter'=>'r/+51.004/+5.071/15');
 
-#50km rondom Lemerveld
-#my $is = new Ham::APRS::IS('aprs.glidernet.org:14580', 'PerlEx', 'appid' => 'Perl Example App', 'filter'=>'r/+52.433/+6.342/50');
+
 
 
 $is->connect('retryuntil' => 3) || die "Failed to connect: $is->{error}";
