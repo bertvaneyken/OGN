@@ -22,7 +22,7 @@ print "year:" . $year_db . "\n";
 # SQL config
 my $dbase = "ogn";
 my $host = "localhost";
-my $user = "yourdatabasehere";
+my $user = "yourdatabaseuserhere";
 my $pw = "yourpasswordhere";
 my $port = "3306";
 
