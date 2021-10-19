@@ -9,7 +9,7 @@ use Geo::Coordinates::DecimalDegrees;
 # SQL config
 my $dbase = "ogn";
 my $host = "localhost";
-my $user = "yourdbhere";
+my $user = "yourdatabaseuserhere";
 my $pw = "yourpasswordhere";
 my $port = "3306";
 my $path = "/yourpathtofolder/igc/";
