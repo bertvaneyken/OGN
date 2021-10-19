@@ -14,8 +14,8 @@ Several open issues still stand:
 - rethink the whole code because it is a mess, but hey, it works :-)
 
 Several perl modules are needed, these are the verions I use.
-Date-Calc-6.4
-DBI-1.633
-Geo-Coordinates-DecimalDegrees-0.09
-GIS-Distance-0.08
-Ham-APRS-FAP-1.20
+- Date-Calc-6.4
+- DBI-1.633
+- Geo-Coordinates-DecimalDegrees-0.09
+- GIS-Distance-0.08
+- Ham-APRS-FAP-1.20
